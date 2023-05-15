@@ -1,9 +1,7 @@
 <meta charset="utf-8">
 <script>
-    //lê um dado de entrada
-    var num = Number(prompt("Número: "))
-    //calcula o dobro
-    var dobro = num + num 
-    //exibe a resposta
-    alert("Dobro é: " + dobro)
+    const jantar = Number(prompt("Valor da janta: "));   //lê o valor do jantar
+    const garcom = jantar * 0.10;  //calcula os dados
+    const total = jantar + (jantar * 0.10)  //apresenta as resposta
+    alert("Taxa Garçom R$: " + garcom.toFixed(2) + "\nTotal R$: " + total.toFixed(2));
 </script>
